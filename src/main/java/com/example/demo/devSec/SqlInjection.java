@@ -15,8 +15,7 @@ public class SqlInjection {
     }else if{
       // .....
     }
-  }
-
+}
 
   public static void preventSqlToCheckCollection(Collections collection) throws RuntimeException {
     Iterable iterable= (Iterable) collection;
